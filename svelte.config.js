@@ -15,7 +15,7 @@ export default defineConfig({
         name: 'sag_poc',
         short_name: 'sag_poc',
         description: 'My Svelte PWA Proof of Concept',
-        start_url: '/',
+        start_url: '/sag_poc/',
         display: 'standalone',
         background_color: '#ffffff',
         theme_color: '#ff3e00',
