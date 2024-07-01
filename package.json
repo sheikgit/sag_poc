@@ -5,18 +5,16 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/sag_poc/",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",    
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^3.1.1",
     "gh-pages": "^6.1.1",
     "svelte": "^4.2.18",
-    "vite": "^5.3.1"
-  },
-  "dependencies": {
+    "vite": "^5.3.1",
     "vite-plugin-pwa": "^0.20.0"
   }
 }
