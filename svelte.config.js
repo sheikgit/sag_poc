@@ -4,10 +4,9 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
+  base: '/sag_poc/', // GitHub repository name
   plugins: [
     svelte({
-      // Consult https://svelte.dev/docs#compile-time-svelte-preprocess
-      // for more information about preprocessors      
       preprocess: vitePreprocess()
     }),
     VitePWA({
