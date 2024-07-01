@@ -1,0 +1,1 @@
+{"name":"sag_poc","short_name":"sag_poc","start_url":"/sag_poc/","display":"standalone","background_color":"#ffffff","lang":"en","scope":"/sag_poc/","description":"My Svelte PWA Proof of Concept","theme_color":"#ff3e00","icons":[{"src":"./icon-192x192.png","sizes":"192x192","type":"image/png"},{"src":"./icon-512x512.png","sizes":"512x512","type":"image/png"}]}
